@@ -1,0 +1,28 @@
+/* Estilo para quitar la línea de hipervínculo */
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+
+.barra-navegacion {
+    display: flex; /* Establece el contenedor de navegación como un contenedor flex */
+    justify-content: space-evenly; /* Distribuye los elementos de manera uniforme a lo largo del contenedor */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    flex-direction: row; /* Establece la dirección de los elementos en una línea */
+}
+.barra-navegacion ul {
+    display: flex; /* Establece la lista como un contenedor flex */
+    list-style-type: none;
+    padding: 0; 
+}
+.barra-navegacion li {
+    margin: 0 80px; /* Añade espaciado entre los elementos */
+}
+
+
+
